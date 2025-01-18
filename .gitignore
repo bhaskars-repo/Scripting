@@ -1,5 +1,6 @@
 target/
 .mvn/
+.gradle/
 mvnw
 mvnw.cmd
 !**/src/main/**
