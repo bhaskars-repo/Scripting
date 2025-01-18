@@ -9,9 +9,10 @@
     <version>1.0</version>
 
     <properties>
-        <java.version>11</java.version>
-        <slf4j.version>1.7.30</slf4j.version>
-        <nashorn.version>15.2</nashorn.version>
+        <java.version>23</java.version>
+        <slf4j.version>2.0.16</slf4j.version>
+        <nashorn.version>15.6</nashorn.version>
+        <maven.compiler.version>3.13.0</maven.compiler.version>
     </properties>
 
     <build>
@@ -20,7 +21,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
+                    <version>${maven.compiler.version}</version>
                     <configuration>
                         <fork>true</fork>
                         <meminitial>128m</meminitial>
